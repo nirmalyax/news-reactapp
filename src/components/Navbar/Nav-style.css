@@ -26,23 +26,14 @@
     display: flex;
     align-items: center;
 }
-.dropdown-item:hover{
-    background-color: #425c80;
 
-    color: #A8DADC;
-}
-.me-auto:hover ,.nav-link:hover, .dropdown:hover {
-    /* padding-left: 30px; */
-    /* padding-right: 30px; */
-    border: 100%;
-    color: #A8DADC;
-}
+
 .nav-link:hover{
-    transition: 0.5s ease-in-out;
-    background-color: #425c80;
-    color: #A8DADC;
+    transition: 0.1s ease-in-out;
+    font-weight: bolder;
     border-radius: 50px;
 }
+
 .sticky-header {
     background-color: #A8DADC;
     color: white;

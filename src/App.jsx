@@ -3,17 +3,20 @@ import './App.css';
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Hero from './components/Hero/Hero';
 import Navbar from './components/Navbar/Navbar';
+import About from './components/About/About';
+import Footer from './components/Footer/Footer';
+
 
 
 function App() {
   return (
     <BrowserRouter className=''>
-                <Navbar />
+                <Navbar home="HOME " about="ABOUT " news="NEWS-CATEGORIES "/>
                 <Routes>
-                    <Route path="/" element={<Hero />} />
-                    {/* <Route path="/" element={<Category />} />
-                    <Route path="/" element={<SingleProduct />} /> */}
+                    <Route exact path="/" element={<Hero />} />
+                    <Route exact path='/About' element={<About/>}/>
                 </Routes>
+                <Footer/>
         </BrowserRouter>
   );
 }

@@ -1,0 +1,36 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&family=Poppins&family=Roboto+Mono&family=Ubuntu:wght@300&display=swap');
+
+.ab-main{
+    background-color: #F1FAEE;
+    padding-bottom: 5rem;
+}
+.about-header{
+    text-align: center;
+}
+.about-main{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 5rem;
+    background: url(new.jpeg) repeat;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.arrow{
+    font-weight: 900;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    opacity: 50%;
+    background: url(new.jpeg) no-repeat;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+#headingOne{
+    text-align: center;
+    padding: 1cm;
+}
+.accordion-container{
+    background-color: inherit;
+}
+.accordion-body{
+    text-align: justify;
+}
