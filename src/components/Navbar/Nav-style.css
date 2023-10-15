@@ -1,8 +1,7 @@
 .heading{
     background-color: #A8DADC;
-    position: sticky;
+    position: relative;
     z-index: 99;
-    color: white;
 }
 .dropdown-menu{
     background-color: #A8DADC;
@@ -14,24 +13,25 @@
 }
 .navbar-brand , .nav-link{
     color: #1D3557;
-    background-color: none;
     border-radius: 50px;
 }
 .nav-link{
+    position: relative;
     letter-spacing: 1px;
-    grid-area: 2px;
 }
-.me-auto {
-    margin-left: auto!important;
-    display: flex;
-    align-items: center;
-}
-
-
-.nav-link:hover{
-    transition: 0.1s ease-in-out;
-    font-weight: bolder;
+.nav-link:before{
+    content: "";
+    position: absolute;
+    bottom: .5px;
+    height: 2px;
+    width: 0%;
+    background: #1D3557;
     border-radius: 50px;
+    transition: 0.5s ease;
+}
+
+.nav-link:hover::before{
+    width: 80%;
 }
 
 .sticky-header {

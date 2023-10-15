@@ -29,7 +29,7 @@ const Navbar = (props) => {
       <div className="container-fluid">
       <img className='nav-logo' alt='logo' src="logo.png" width="30" height="30"/>
         <Link className="navbar-brand" to="/"><strong>dailyNEWS</strong></Link>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">svcc
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
