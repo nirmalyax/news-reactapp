@@ -17,9 +17,7 @@
 }
 .arrow{
     font-weight: 900;
-    font-size: 1.5rem;
-    border-radius: 20px;
-    opacity: 50%;
+    font-size: 2rem;
     background: url(new.jpeg) no-repeat;
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
