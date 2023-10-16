@@ -24,6 +24,19 @@
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 }
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    background: #F1FAEE;
+
+}
+::-webkit-scrollbar-thumb{
+    background: #25B2E3;
+    border-radius:10px;
+}
+
 #headingOne{
     text-align: center;
     padding: 1cm;
