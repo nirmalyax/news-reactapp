@@ -6,5 +6,8 @@
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
     /* background-color: #F1FAEE; */
-    
+    /* overflow: overlay; */
+}
+html{
+    scroll-behavior: smooth;
 }

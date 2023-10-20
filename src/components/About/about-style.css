@@ -22,12 +22,12 @@
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 }
-
 ::-webkit-scrollbar{
+    background: transparent;
     width: 5px;
 }
 ::-webkit-scrollbar-track{
-    background: #F1FAEE;
+    display: none;
 
 }
 ::-webkit-scrollbar-thumb{
