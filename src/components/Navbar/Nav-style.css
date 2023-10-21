@@ -18,6 +18,7 @@
 .nav-link{
     position: relative;
     letter-spacing: 1px;
+    cursor: pointer;
 }
 .nav-link:before{
     content: "";
