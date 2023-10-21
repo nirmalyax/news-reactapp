@@ -2,6 +2,7 @@
     background-color: #A8DADC;
     position: relative;
     z-index: 99;
+    margin-bottom: 2rem;
 }
 .dropdown-menu{
     background-color: #A8DADC;
