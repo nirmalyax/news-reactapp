@@ -8,6 +8,7 @@ import Typography from '@mui/material/Typography';
 import './Hero-style.css'
 
 
+
 export default function Hero() {
   return (
     <div className="container">
