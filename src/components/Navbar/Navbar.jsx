@@ -19,7 +19,7 @@ const Navbar = (props) => {
   };
 
   useEffect(() => {
-      console.log("UseEffect")
+      //console.log("UseEffect")
       window.addEventListener("scroll", handleScroll)
   }, []);
 
