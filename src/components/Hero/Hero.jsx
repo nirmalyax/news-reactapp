@@ -22,7 +22,7 @@ export default class Hero extends Component {
 
   render() {
     return (
-          <div className="container my-4 ">
+          <div className="container  ">
             <h1>News - Top Stories</h1>
             <div className="row my-7">
               {this.state.articles.map((element) => {
