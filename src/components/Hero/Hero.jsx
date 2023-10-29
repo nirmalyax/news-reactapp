@@ -7,8 +7,9 @@ export default class Hero extends Component {
     super();
     this.state = {
         articles : [],
-        loading : false,
+        loading : true,
         page:1,
+        pageSize: 20
     }
   }
 
@@ -31,12 +32,11 @@ export default class Hero extends Component {
   }
 
   handleNextClick = async () => {
-    console.log(Next)
-    if(this.state.page + 1 >= Math.ceil(this.state.totalResults/20)) {
-        
-    }
-    else{
-      let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=ce94145377a645868c4c3cf7c57c6f55&page=${this.state.page+1}&pageSize=20`
+     if(this.state.page + 1 > Math.ceil(this.state.totalResults/this.state.pageSize)) {
+        //alert("No News go back")
+     }
+     else{
+      let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=ce94145377a645868c4c3cf7c57c6f55&page=${this.state.page+1}&pageSize=15`
       let data = await fetch(url);
       let parsedData = await data.json()
   
