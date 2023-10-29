@@ -22,46 +22,46 @@ export default function Footer() {
                 <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
                     <h6 className='text-uppercase fw-bold mb-4'>News - Categories</h6>
                     <p>
-                    <Link to='#!' className='text-reset'>
+                    <Link to='/general' className='text-reset text-decoration-none'>
                         General
                     </Link>
                     </p>
                     <p>
-                    <Link to='#!' className='text-reset'>
+                    <Link to='/business' className='text-reset text-decoration-none'>
                         Business
                     </Link>
                     </p>
                     <p>
-                    <Link to='#!' className='text-reset'>
+                    <Link to='/science' className='text-reset text-decoration-none'>
                         Science
                     </Link>
                     </p>
                     <p>
-                    <Link to='#!' className='text-reset'>
+                    <Link to='/health' className='text-reset text-decoration-none'>
                         Health
                     </Link>
                     </p>
                 </MDBCol>
 
-                <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
+                <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4 text-decoration-none'>
                     <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
                     <p>
-                    <Link to='#!' className='text-reset'>
+                    <Link to='#!' className='text-reset text-decoration-none'>
                         Pricing
                     </Link>
                     </p>
                     <p>
-                    <Link to='#!' className='text-reset'>
+                    <Link to='#!' className='text-reset text-decoration-none text-decoration-none'>
                         Settings
                     </Link>
                     </p>
                     <p>
-                    <Link to='#!' className='text-reset'>
+                    <Link to='#!' className='text-reset text-decoration-none'>
                         Orders
                     </Link>
                     </p>
                     <p>
-                    <Link to='#!' className='text-reset'>
+                    <Link to='#!' className='text-reset text-decoration-none'>
                         Help
                     </Link>
                     </p>
@@ -90,7 +90,7 @@ export default function Footer() {
 
             <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
             © 2023 Copyright - All rights reserved  &nbsp;  &nbsp; || &nbsp; &nbsp;
-            &#9829; developed with love by <Link rel="stylesheet"  to="https://nirmalyax.dev" >-nirmalyax</Link>
+            &#9829; developed with love by <Link className='text-decoration-none' rel="stylesheet"  to="https://nirmalyax.dev" >- nirmalyax  &#9829;</Link>
             </div>
         </MDBFooter>
    </div>
