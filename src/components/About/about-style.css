@@ -1,8 +1,7 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&family=Poppins&family=Roboto+Mono&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&family=Poppins&family=Roboto+Mono&family=Ubuntu:wght@300&display=swap');
 
 .ab-main{
-    background-color: #F1FAEE;
+    background-color: #ffffff;
     padding-bottom: 5rem;
 }
 .about-header{
@@ -22,7 +21,7 @@
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 }
-::-webkit-scrollbar{
+/* ::-webkit-scrollbar{
     background: transparent;
     width: 5px;
 }
@@ -33,7 +32,7 @@
 ::-webkit-scrollbar-thumb{
     background: #99daef;
     border-radius:10px;
-}
+} */
 
 #headingOne{
     text-align: center;
