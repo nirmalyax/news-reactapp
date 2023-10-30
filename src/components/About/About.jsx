@@ -7,7 +7,7 @@ export default function About() {
   return (
     <div div className='ab-main'>
         <div className='about-header'>
-            <p className='about-main'>ABOUT</p>
+            <p className='about-main'>ABOUT - US</p>
             <p className='arrow'>&#8595;</p>
         </div>
         <div className="accordion container" id="accordionPanelsStayOpenExample">

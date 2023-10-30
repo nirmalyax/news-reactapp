@@ -4,6 +4,7 @@ import Loader from './Loader';
 
 
 export default class Hero extends Component {
+ 
   constructor(){
     super();
     this.state = {
@@ -19,9 +20,11 @@ export default class Hero extends Component {
     this.setState({loading: true});
     let data = await fetch(url);
     let parsedData = await data.json();
-    this.setState({articles : parsedData.articles, 
+    this.setState({
+      articles : parsedData.articles, 
       totalResults : parsedData.totalResults,
-      loading: false})
+      loading: false
+    });
   }
 
   handlePreviousClick = async () => {
