@@ -69,9 +69,7 @@ git clone <https://github.com/yourusername/newsapp.git>
 
 To configure NewsApp, you can modify the `config.js` file in the project's root directory. Here, you can customize various settings, such as the API key for the news provider, the default language, and more.
 
-## 📚 Documentation
 
-For a comprehensive guide on using and customizing NewsApp, please refer to the [official documentation](https://github.com/yourusername/newsapp/wiki).
 
 ## 🤝 Contributing
 
