@@ -79,7 +79,7 @@ export default class Hero extends Component {
             <div className="d-flex p-4 row ml-2 my-7">
               {!this.state.loading && this.state.articles.map((element) => {
                   return <div className=" d-flex col-md-3" key={element.url}>
-                    <NewsItem  title={element.title?element.title:" "} description={element.description?element.description:" "} imgUrl={element.urlToImage?element.urlToImage:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk3UgM3iwgnkhNoQm3NuarG41NsSprg7iSAg&usqp=CAU"} newsUrl={element.url}/>
+                    <NewsItem  title={element.title?element.title:" "} description={element.description?element.description:" "} imgUrl={element.urlToImage?element.urlToImage:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk3UgM3iwgnkhNoQm3NuarG41NsSprg7iSAg&usqp=CAU"} newsUrl={element.url} author={element.author} date={element.publishedAt}/>
                   </div>
               })}
             </div>
