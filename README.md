@@ -50,13 +50,14 @@ git clone <https://github.com/yourusername/newsapp.git>
 
 `npm install`
 
+3.Create your API from `https://newsapi.org/`
 
-3. Start the development server:
+4.Start the development server:
 
  `npm start`
 
 
-4. Open your browser and navigate to `http://localhost:3000` to view the NewsApp in action.
+5.Open your browser and navigate to `http://localhost:3000` to view the NewsApp in action.
 
 ## 🔧 Configuration
 
