@@ -14,7 +14,7 @@ export default class Hero extends Component {
   }
 
   async updateNews() {
-    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=e69e96f07a934bb0b0a0ce2b4490f451&page=${this.state.page}&pageSize=20`;
+    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page}&pageSize=20`;
     this.setState({ loading: true });
     let data = await fetch(url);
     let parsedData = await data.json();
