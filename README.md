@@ -34,13 +34,6 @@
 
 NewsApp is a cutting-edge news aggregator that provides users with a comprehensive and personalized feed of the latest news from around the world. With a sleek and intuitive user interface, NewsApp offers a seamless experience for staying informed and up-to-date on current events.
 
-## 🚀 Features
-
-* AI-powered news recommendation engine
-* Personalized news feed based on user preferences
-* Offline access for reading news without an internet connection
-* Dark mode for a more comfortable reading experience
-
 ## 📖 Getting Started
 
 To get started with NewsApp, follow these simple steps:
